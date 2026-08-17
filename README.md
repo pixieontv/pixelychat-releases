@@ -131,9 +131,8 @@ Copy one URL, paste it into a Browser Source, done. Every style change updates t
 
 ## 📥 Download
 
-**Windows** — [Microsoft Store](https://apps.microsoft.com/detail/9MX361W4VSFS) (recommended — automatic updates, no SmartScreen warning) or the direct `.exe` from the [Releases page](https://github.com/pixieontv/pixelychat-releases/releases/latest).
 
-**macOS & Linux:**
+**Windows & macOS & Linux:**
 
 [![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white)](https://github.com/pixieontv/pixelychat-releases/releases/latest)
 [![macOS](https://img.shields.io/badge/-macOS-000000?logo=apple&logoColor=white)](https://github.com/pixieontv/pixelychat-releases/releases/latest)
