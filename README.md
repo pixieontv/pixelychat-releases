@@ -7,7 +7,7 @@
 ### One Chat. Every Platform.
 
 PixelyChat pulls your Twitch, YouTube, Kick, and TikTok chat into one unified feed —
-moderated, spoken aloud, translated on the fly, and backed by a built-in chat bot with an AI co-host.
+moderated, spoken aloud, translated on the fly, with on-screen alerts, and backed by a built-in chat bot with an AI co-host.
 
 Built by a streamer who'd rather be playing than managing five chat windows.
 
@@ -25,7 +25,7 @@ Built by a streamer who'd rather be playing than managing five chat windows.
 
 ## About
 
-PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, backed by a chat bot with commands and an AI co-host, and displayed live on stream through an OBS/Streamlabs overlay.
+PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, shown as themed on-screen alerts, backed by a chat bot with commands and an AI co-host, and displayed live on stream through an OBS/Streamlabs overlay.
 
 It's made by **PixieOnTV**, a variety gaming streamer who got tired of multi-platform chat tools either missing what she needed or requiring a computer science degree to configure. She built it for her own stream first — then figured other streamers fighting the same chat chaos might want it too.
 
@@ -39,10 +39,10 @@ It's made by **PixieOnTV**, a variety gaming streamer who got tired of multi-pla
 <tr>
 <td width="50%">
 
-**Dashboard**
-Live viewer counts, message activity, and uptime for every connected platform, plus a quick way to send a message.
+**Dashboard & Quick Admin**
+Live viewer counts, message activity, and uptime for every platform — plus delete messages, block users, and edit stream title/category for Twitch, Kick, and YouTube without leaving the app.
 
-<img src="screenshots/dashboard.webp" alt="PixelyChat dashboard">
+<img src="screenshots/quick-admin.webp" alt="PixelyChat dashboard with quick admin tools">
 
 </td>
 <td width="50%">
@@ -68,7 +68,7 @@ Log in to each platform once — PixelyChat picks up your username and channel d
 **An AI Co-Host For Your Chat**
 @mention your bot and it actually replies — pick a personality (Friendly, Funny, Sassy, Hype, or write your own). Free hosted AI included out of the box, no API key or signup required.
 
-<img src="screenshots/bot-ai-chat.webp" alt="PixelyChat AI chat bot replying in stream chat">
+<img src="screenshots/bot-ai-chat.webp" alt="PixelyChat AI chat bot settings">
 
 </td>
 </tr>
@@ -108,6 +108,24 @@ Copy one URL, paste it into a Browser Source, done. Every style change updates t
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+**On-Screen Alerts**
+Follows, subs, gifts, raids, and more with custom themes, sounds, and media — works across Twitch, YouTube, Kick, and TikTok.
+
+<img src="screenshots/alerts.webp" alt="PixelyChat themed on-screen alerts setup">
+
+</td>
+<td width="50%">
+
+**Unified Dashboard Chat**
+All platforms in one feed with filters, send-to-platform, and live activity counts.
+
+<img src="screenshots/dashboard.webp" alt="PixelyChat dashboard chat">
+
+</td>
+</tr>
 </table>
 
 ---
@@ -116,16 +134,17 @@ Copy one URL, paste it into a Browser Source, done. Every style change updates t
 
 - **Unified chat** — every message, from every platform, in a single feed
 - **Four platforms at once** — Twitch, YouTube, Kick, and TikTok, all connected simultaneously
-- **Chat bot with custom commands** — !so, !8ball, and more out of the box, plus your own commands, cooldowns, access levels, greetings, shoutouts, and follow/sub/raid alerts
+- **On-screen event alerts** — themed alerts for follows, subs, gifts, raids, and more, with customizable sounds and media
+- **Chat bot with custom commands** — !so, !8ball, and more out of the box, plus your own commands, cooldowns, access levels, greetings, shoutouts, and event automation
 - **AI co-host** — @mention it and it replies in a personality you pick; free hosted AI included, no API key required
-- **Built-in chat moderation** — delete messages and block or timeout users directly from the unified chat
+- **Quick admin** — delete messages, block users, and update stream title & category for Twitch, Kick, and YouTube from the Dashboard
 - **Live translation** — automatic, no API key required, original text preserved alongside it
 - **Text-to-speech** — natural voices, per-user/bot ignore lists, spam/raid protection
-- **Instant OBS & Streamlabs overlays** — one URL, live-updating styles, zero added latency
+- **Instant OBS & Streamlabs overlays** — chat overlay and dedicated alerts overlay, one URL each, live-updating styles
 - **External emote support** — 7TV, BTTV, and FrankerFaceZ render alongside native emotes
 - **Live viewer & message stats** — side-by-side per-platform activity on the Dashboard
 - **Lightweight by design** — runs quietly in the background so your CPU/GPU stays free for your game and encoder
-- **Runs 100% locally** — no PixelyChat servers in the loop; your chat data and login tokens never leave your machine
+- **Runs 100% locally** — no PixelyChat servers in the loop for chat; your login tokens never leave your machine (OAuth secrets are handled by a minimal relay only)
 
 ---
 
@@ -147,7 +166,7 @@ No payment, no account, no catch — every feature is free and stays free.
 ## ❓ FAQ
 
 **Does PixelyChat support Kick chat?**
-Yes — Kick is fully supported alongside Twitch, YouTube, and TikTok. Kick chat shows up in your unified feed, gets read aloud by TTS, and appears in your overlay exactly like the other platforms.
+Yes — Kick is fully supported alongside Twitch, YouTube, and TikTok. Kick chat shows up in your unified feed, gets read aloud by TTS, triggers alerts, and appears in your overlay exactly like the other platforms.
 
 **Is PixelyChat safe to use with my YouTube/Google account?**
 Yes. PixelyChat uses the official Google OAuth 2.0 flow — you sign in through Google's own page, and PixelyChat never sees your password.
@@ -162,10 +181,13 @@ Yes — every feature is free and stays free. [Donations](https://streamelements
 Right now, I don't — this is a personal project, not a company, and it's currently supported entirely by [donations](https://streamelements.com/pixieontv/tip). No ads, no selling data. Down the line I may add some optional commercial features, but everything the app does today stays free.
 
 **How do the OBS/Streamlabs overlays work?**
-PixelyChat runs a small local web server on your own machine. Point a Browser Source at the URL it gives you — zero latency, nothing sent over the internet.
+PixelyChat runs a small local web server on your own machine. Point a Browser Source at the URL it gives you for chat and/or alerts — zero latency, nothing sent over the internet.
 
 **Does it moderate my chat?**
 Yes — PixelyChat includes built-in mod tools so you can delete messages and block or timeout users directly from the unified chat. You can still use your platform's native tools or bots like Nightbot/StreamElements/Streamer.bot alongside it if you prefer.
+
+**Does it support on-screen alerts?**
+Yes — themed event alerts for follows, subs, gifts, raids, and more, with customizable themes, sounds, and media. Add a second Browser Source for the alerts overlay (same setup flow as the chat overlay).
 
 ---
 
