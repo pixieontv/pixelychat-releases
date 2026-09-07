@@ -7,7 +7,7 @@
 ### One Chat. Every Platform.
 
 PixelyChat pulls your Twitch, YouTube, Kick, and TikTok chat into one unified feed —
-moderated, spoken aloud, translated on the fly, with on-screen alerts, and backed by a built-in chat bot with an AI co-host.
+moderated, spoken aloud, translated on the fly, with on-screen alerts and Channel Point/TikTok gift rewards, and backed by a built-in chat bot with an AI co-host.
 
 Built by a streamer who'd rather be playing than managing five chat windows.
 
@@ -25,7 +25,7 @@ Built by a streamer who'd rather be playing than managing five chat windows.
 
 ## About
 
-PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, shown as themed on-screen alerts, backed by a chat bot with commands and an AI co-host, and displayed live on stream through an OBS/Streamlabs overlay.
+PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, shown as themed on-screen alerts and Channel Point/TikTok gift rewards, backed by a chat bot with commands and an AI co-host, and displayed live on stream through an OBS/Streamlabs overlay.
 
 It's made by **PixieOnTV**, a variety gaming streamer who got tired of multi-platform chat tools either missing what she needed or requiring a computer science degree to configure. She built it for her own stream first — then figured other streamers fighting the same chat chaos might want it too.
 
@@ -126,6 +126,16 @@ All platforms in one feed with filters, send-to-platform, and live activity coun
 
 </td>
 </tr>
+<tr>
+<td colspan="2">
+
+**Custom Rewards for Channel Points & TikTok Gifts**
+Turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-screen reactions — visuals, sounds, and read-aloud text, no scripting required. Build from bundled presets or upload your own media, and PixelyChat queues everything so a redemption burst doesn't overlap on screen.
+
+<img src="screenshots/rewards.webp" alt="PixelyChat Rewards tab with custom Channel Point and TikTok gift rewards">
+
+</td>
+</tr>
 </table>
 
 ---
@@ -135,6 +145,7 @@ All platforms in one feed with filters, send-to-platform, and live activity coun
 - **Unified chat** — every message, from every platform, in a single feed
 - **Four platforms at once** — Twitch, YouTube, Kick, and TikTok, all connected simultaneously
 - **On-screen event alerts** — themed alerts for follows, subs, gifts, raids, and more, with customizable sounds and media
+- **Custom rewards for Channel Points & TikTok gifts** — turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-screen reactions, with visuals, sounds, and read-aloud text
 - **Chat bot with custom commands** — !so, !8ball, and more out of the box, plus your own commands, cooldowns, access levels, greetings, shoutouts, and event automation
 - **AI co-host** — @mention it and it replies in a personality you pick; free hosted AI included, no API key required
 - **Quick admin** — delete messages, block users, and update stream title & category for Twitch, Kick, and YouTube from the Dashboard
@@ -188,6 +199,9 @@ Yes — PixelyChat includes built-in mod tools so you can delete messages and bl
 
 **Does it support on-screen alerts?**
 Yes — themed event alerts for follows, subs, gifts, raids, and more, with customizable themes, sounds, and media. Add a second Browser Source for the alerts overlay (same setup flow as the chat overlay).
+
+**Can I turn Channel Points or TikTok gifts into on-screen rewards?**
+Yes — map a Twitch/Kick Channel Point redemption or a specific TikTok gift to its own custom on-screen reaction: a visual, a sound, and optional read-aloud text. Build from bundled presets or upload your own media, and set a point cost per platform.
 
 ---
 
