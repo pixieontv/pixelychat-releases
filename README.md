@@ -4,7 +4,7 @@
 
 # PixelyChat
 
-### One Chat. Every Platform.
+### Less juggling. More streaming.
 
 PixelyChat pulls your Twitch, YouTube, Kick, and TikTok chat into one unified feed —
 moderated, spoken aloud, translated on the fly, with on-screen alerts, Channel Point/TikTok gift rewards, stream and action widgets, AI Chat, and Companion — an on-stream AI co-host.
