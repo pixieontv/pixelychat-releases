@@ -7,7 +7,7 @@
 ### One Chat. Every Platform.
 
 PixelyChat pulls your Twitch, YouTube, Kick, and TikTok chat into one unified feed —
-moderated, spoken aloud, translated on the fly, with on-screen alerts, Channel Point/TikTok gift rewards, stream widgets, and a built-in chat bot with an AI co-host.
+moderated, spoken aloud, translated on the fly, with on-screen alerts, Channel Point/TikTok gift rewards, stream and action widgets, AI Chat, and Companion — an on-stream AI co-host.
 
 Built by a streamer who'd rather be playing than managing five chat windows.
 
@@ -17,7 +17,7 @@ Built by a streamer who'd rather be playing than managing five chat windows.
 [![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/NjC9cUgdfQ)
 [![Free forever](https://img.shields.io/badge/price-free%20forever-brightgreen)](#-faq)
 
-[Download](#-download) · [Features](#-features) · [Screenshots](#-screenshots) · [FAQ](#-faq) · [Support](#-support--community)
+[Website](https://www.pixelychat.com) · [Download](#-download) · [Features](#-features) · [Screenshots](#-screenshots) · [Manual](https://www.pixelychat.com/manual/) · [FAQ](#-faq) · [Support](#-support--community)
 
 </div>
 
@@ -25,7 +25,7 @@ Built by a streamer who'd rather be playing than managing five chat windows.
 
 ## About
 
-PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, shown as themed on-screen alerts and Channel Point/TikTok gift rewards, enhanced with stream widgets for goals, stats, activity, announcements, and Now Playing, backed by a chat bot with commands and an AI co-host, and displayed live on stream through OBS/Streamlabs overlays.
+PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, shown as themed on-screen alerts and Channel Point/TikTok gift rewards, enhanced with stream widgets and action widgets, backed by a chat bot with commands and AI Chat, and extended by Companion, an optional on-stream AI co-host with a 2D avatar, voice, captions, and event reactions. Everything can be brought into OBS/Streamlabs through PixelyChat's local browser-source overlays.
 
 It's made by **PixieOnTV**, a variety gaming streamer who got tired of multi-platform chat tools either missing what she needed or requiring a computer science degree to configure. She built it for her own stream first — then figured other streamers fighting the same chat chaos might want it too.
 
@@ -65,8 +65,8 @@ Log in to each platform once — PixelyChat picks up your username and channel d
 </td>
 <td width="50%">
 
-**An AI Co-Host For Your Chat**
-@mention your bot and it actually replies — pick a personality (Friendly, Funny, Sassy, Hype, or write your own). Free hosted AI included out of the box, no API key or signup required.
+**AI Chat With Personality**
+@mention your bot and it replies in character — pick Friendly, Funny, Sassy, Hype, or write your own personality. Hosted AI replies are included out of the box, with optional provider keys for supported services.
 
 <img src="screenshots/bot-ai-chat.webp" alt="PixelyChat AI chat bot settings">
 
@@ -144,6 +144,24 @@ Turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-sc
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+**Companion — Your AI Co-Host**
+Give your stream a character that can react alongside you with a 2D avatar, voice, captions, and event-driven reactions. Companion shares the same personality as AI Chat and uses local responses first where possible to keep AI usage low.
+
+<img src="screenshots/companion.webp" alt="PixelyChat Companion editor with avatar, reactions, voice, and stream preview">
+
+</td>
+<td width="50%">
+
+**Spin Wheel Action Widget**
+Create reusable wheel templates with custom results and descriptions, position them independently for horizontal and vertical layouts, then trigger a spin from the Dashboard, Bot Commands, Alerts, or Rewards.
+
+<img src="screenshots/spin-wheel.webp" alt="PixelyChat Spin Wheel action widget with configurable templates and stream preview">
+
+</td>
+</tr>
 </table>
 
 ---
@@ -155,8 +173,11 @@ Turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-sc
 - **On-screen event alerts** — themed alerts for follows, subs, gifts, raids, and more, with customizable sounds and media
 - **Custom rewards for Channel Points & TikTok gifts** — turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-screen reactions, with visuals, sounds, and read-aloud text
 - **Stream widgets** — add goals, live stats, activity feeds, announcements, and Now Playing to OBS/Streamlabs from one multistream-friendly editor
+- **Action widgets** — run interactive Countdown, Stopwatch, Game Queue, Hype, and Spin Wheel widgets with independent horizontal/vertical positioning
+- **Spin Wheel** — create reusable templates with custom results and trigger them manually from the Dashboard or automatically from Bot Commands, Alerts, and Rewards
 - **Chat bot with custom commands** — !so, !8ball, and more out of the box, plus your own commands, cooldowns, access levels, greetings, shoutouts, and event automation
-- **AI co-host** — @mention it and it replies in a personality you pick; free hosted AI included, no API key required
+- **AI Chat** — @mention the bot and it replies using Friendly, Funny, Sassy, Hype, or your own custom personality; hosted AI replies are included
+- **Companion** — an optional on-stream AI co-host with a 2D avatar, voice, captions, and event reactions that shares the same personality as AI Chat
 - **Quick admin** — delete messages, block users, and update stream title & category for Twitch, Kick, and YouTube from the Dashboard
 - **Live translation** — automatic, no API key required, original text preserved alongside it
 - **Text-to-speech** — natural voices, per-user/bot ignore lists, spam/raid protection
@@ -164,14 +185,14 @@ Turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-sc
 - **External emote support** — 7TV, BTTV, and FrankerFaceZ render alongside native emotes
 - **Live viewer & message stats** — side-by-side per-platform activity on the Dashboard
 - **Lightweight by design** — runs quietly in the background so your CPU/GPU stays free for your game and encoder
-- **Runs 100% locally** — no PixelyChat servers in the loop for chat; your login tokens never leave your machine (OAuth secrets are handled by a minimal relay only)
+- **Local-first by design** — chat state, settings, and stored login tokens stay on your computer, and browser-source overlays are served locally; network-backed features only contact the relevant platform/provider when needed
 
 ---
 
 ## 📥 Download
 
 
-**Windows & macOS & Linux:**
+**Windows, macOS & Linux:**
 
 [![Windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=white)](https://github.com/pixieontv/pixelychat-releases/releases/latest)
 [![macOS](https://img.shields.io/badge/-macOS-000000?logo=apple&logoColor=white)](https://github.com/pixieontv/pixelychat-releases/releases/latest)
@@ -192,7 +213,7 @@ Yes — Kick is fully supported alongside Twitch, YouTube, and TikTok. Kick chat
 Yes. PixelyChat uses the official Google OAuth 2.0 flow — you sign in through Google's own page, and PixelyChat never sees your password.
 
 **Does PixelyChat collect or sell my data?**
-No. PixelyChat runs locally on your computer. Chat data, login tokens, and settings stay on your machine.
+PixelyChat does not sell your data. Core app data such as settings and stored login tokens stays on your computer. Features that use platform APIs, AI, translation, or other network services send only the data needed for that request to the relevant provider. See the [Privacy Policy](https://www.pixelychat.com/privacy) for details.
 
 **Is it really free?**
 Yes — every feature is free and stays free. [Donations](https://streamelements.com/pixieontv/tip) are appreciated but never required.
@@ -201,7 +222,7 @@ Yes — every feature is free and stays free. [Donations](https://streamelements
 Right now, I don't — this is a personal project, not a company, and it's currently supported entirely by [donations](https://streamelements.com/pixieontv/tip). No ads, no selling data. Down the line I may add some optional commercial features, but everything the app does today stays free.
 
 **How do the OBS/Streamlabs overlays work?**
-PixelyChat runs a small local web server on your own machine. Point a Browser Source at the URL it gives you for chat and/or alerts — zero latency, nothing sent over the internet.
+PixelyChat runs a small local web server on your own machine. Point a Browser Source at the URL it gives you for chat, alerts, widgets, or Companion — no separate cloud overlay service is required.
 
 **Does it moderate my chat?**
 Yes — PixelyChat includes built-in mod tools so you can delete messages and block or timeout users directly from the unified chat. You can still use your platform's native tools or bots like Nightbot/StreamElements/Streamer.bot alongside it if you prefer.
@@ -211,6 +232,12 @@ Yes — themed event alerts for follows, subs, gifts, raids, and more, with cust
 
 **Can I turn Channel Points or TikTok gifts into on-screen rewards?**
 Yes — map a Twitch/Kick Channel Point redemption or a specific TikTok gift to its own custom on-screen reaction: a visual, a sound, and optional read-aloud text. Build from bundled presets or upload your own media, and set a point cost per platform.
+
+**What is Companion?**
+Companion is PixelyChat's optional on-stream AI co-host. It shares the personality selected for AI Chat and can react with a 2D avatar, voice, captions, and event-driven responses. Common reactions can use local response libraries so AI is reserved for moments that actually need generation.
+
+**Can Spin Wheel be triggered automatically?**
+Yes. Spin Wheel is an Action Widget, so you can play it manually from the Dashboard or trigger it from Bot Commands, Alerts, and Rewards. Templates let you keep different wheel setups for different parts of your stream.
 
 ---
 
