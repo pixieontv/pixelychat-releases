@@ -37,165 +37,111 @@ It's made by **PixieOnTV**, a variety gaming streamer who got tired of multi-pla
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/quick-admin.webp" alt="PixelyChat dashboard with quick admin tools" width="100%">
 
-**Dashboard & Quick Admin**
-Live viewer counts, message activity, and uptime for every platform — plus delete messages, block users, and edit stream title/category for Twitch, Kick, and YouTube without leaving the app.
-
-<img src="screenshots/quick-admin.webp" alt="PixelyChat dashboard with quick admin tools">
-
+**Dashboard & Quick Admin**<br>Viewer counts, activity and uptime for every platform. Delete messages, block users and edit your stream title without leaving the app.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/accounts.webp" alt="Account connection screen" width="100%">
 
-**Account Setup**
-Log in to each platform once — PixelyChat picks up your username and channel details automatically. No stream keys, no copying channel IDs.
-
-<img src="screenshots/accounts.webp" alt="Account connection screen">
-
+**Account Setup**<br>Log in to each platform once. No stream keys, no copying channel IDs.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/dashboard.webp" alt="PixelyChat dashboard chat" width="100%">
 
-**Unified Dashboard Chat**
-All platforms in one feed with filters, send-to-platform, and live activity counts.
-
-<img src="screenshots/dashboard.webp" alt="PixelyChat dashboard chat">
-
+**Unified Dashboard Chat**<br>All four platforms in one feed, with filters, sending to any platform and live activity counts.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/translate.webp" alt="Translation settings" width="100%">
 
-**Live Translation**
-Foreign-language chat is translated into your language automatically — no API key, no signup, original text kept alongside it.
-
-<img src="screenshots/translate.webp" alt="Translation settings">
-
+**Live Translation**<br>Chat in other languages is translated into yours automatically. No API key, no signup.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/tts.webp" alt="Text-to-speech settings" width="100%">
 
-**Text-to-Speech**
-Chat read aloud in a natural voice. Control speed and volume, ignore specific users or bots, and cap it so a raid doesn't leave TTS reading for five minutes straight.
-
-<img src="screenshots/tts.webp" alt="Text-to-speech settings">
-
+**Text-to-Speech**<br>Chat read aloud in natural voices, with volume, speed, ignore lists and raid protection.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/chat-styles.webp" alt="Chat Style Library with installable community chat styles" width="100%">
 
-**Chat Styles & Style Library**
-Panel, bubbles, cards, neon, and more built in — or install free community chat styles from the Style Library with one click. Toggle avatars, timestamps, and platform icons, and set colors and transparency.
-
-<img src="screenshots/chat-styles.webp" alt="Chat Style Library with installable community chat styles">
-
+**Chat Styles & Style Library**<br>Built-in chat styles plus free community styles you install with one click.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/overlays.webp" alt="Overlay URL generator" width="100%">
 
-**One-Click OBS/Streamlabs Overlays**
-Copy one URL, paste it into a Browser Source, done. Every style change updates the overlay live.
-
-<img src="screenshots/overlays.webp" alt="Overlay URL generator">
-
+**One-Click OBS/Streamlabs Overlays**<br>Copy one URL into a Browser Source. Every style change updates live.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/on-screen-chat.webp" alt="On-Screen Chat with Twitch, YouTube, Kick and TikTok messages on top of a game" width="100%">
 
-**On-Screen Chat**
-Read chat and events on top of your game with just one monitor. Only you see it — it stays off your stream — and your mouse and keyboard stay with the game.
-
-<img src="screenshots/on-screen-chat.webp" alt="On-Screen Chat with Twitch, YouTube, Kick and TikTok messages on top of a game">
-
+**On-Screen Chat**<br>Chat and events on top of your game with one monitor. Only you see it, your viewers don't.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/alerts.webp" alt="PixelyChat themed on-screen alerts setup" width="100%">
 
-**On-Screen Alerts**
-Follows, subs, gifts, raids, and more with custom themes, sounds, and media — works across Twitch, YouTube, Kick, and TikTok.
-
-<img src="screenshots/alerts.webp" alt="PixelyChat themed on-screen alerts setup">
-
+**On-Screen Alerts**<br>Follows, subs, gifts, raids and more, with themes, sounds and media on all four platforms.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/rewards.webp" alt="PixelyChat Rewards tab with custom Channel Point and TikTok gift rewards" width="100%">
 
-**Custom Rewards for Channel Points & TikTok Gifts**
-Turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-screen reactions — visuals, sounds, and read-aloud text, no scripting required. Build from bundled presets or upload your own media, and PixelyChat queues everything so a redemption burst doesn't overlap on screen.
-
-<img src="screenshots/rewards.webp" alt="PixelyChat Rewards tab with custom Channel Point and TikTok gift rewards">
-
+**Rewards for Channel Points & TikTok Gifts**<br>Turn redemptions and gifts into on-screen reactions with visuals, sounds and read-aloud text.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/widgets.webp" alt="PixelyChat Widgets editor with stream goals, stats, activity feeds, announcements, and Now Playing" width="100%">
 
-**Stream Widgets for Every Platform**
-Add goals, live stats, activity feeds, announcements, and Now Playing to your stream — all from one widget editor built for multistreaming.
-
-<img src="screenshots/widgets.webp" alt="PixelyChat Widgets editor with stream goals, stats, activity feeds, announcements, and Now Playing">
-
+**Stream Widgets**<br>Goals, live stats, activity feeds, announcements and Now Playing, all in one editor.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/visual-shoutout.webp" alt="A Visual Shoutout card with a clip playing on stream" width="100%">
 
-**Visual Shoutout, Starting Soon & Be Right Back**
-Shout out a creator with !so and a card with one of their Twitch clips pops up on stream. Starting Soon and Be Right Back screens play music and clips from your own channel while you're away.
-
-<img src="screenshots/visual-shoutout.webp" alt="A Visual Shoutout card with a clip playing on stream">
-
+**Visual Shoutout & Break Screens**<br>!so shows a card with a creator's clip. Starting Soon and Be Right Back play music and your own clips.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/spin-wheel.webp" alt="PixelyChat Spin Wheel" width="100%">
 
-**Spin Wheel Action Widget**
-Create reusable wheel templates with custom results and descriptions, position them independently for horizontal and vertical layouts, then trigger a spin from the Dashboard, Bot Commands, Alerts, or Rewards.
-
-<img src="screenshots/spin-wheel.webp" alt="PixelyChat Spin Wheel action widget with configurable templates and stream preview">
-
+**Spin Wheel**<br>Reusable wheels, spun from the Dashboard, a chat command, an alert or a reward.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/stream-deck.webp" alt="Stream Deck keys for PixelyChat Action Widgets" width="100%">
 
-**Stream Deck & Streamer.bot**
-Start Action Widgets from Elgato Stream Deck keys with live status on every key, and run your own Streamer.bot actions when stream events happen on any platform.
-
-<img src="screenshots/stream-deck.webp" alt="Stream Deck keys for PixelyChat Action Widgets">
-
+**Stream Deck & Streamer.bot**<br>Start Action Widgets from Stream Deck keys, and run Streamer.bot actions on stream events.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/bot-commands.webp" alt="PixelyChat chat bot custom command builder" width="100%">
 
-**A Chat Bot That's Actually Fun**
-!so, !8ball, !dadjoke, !iq, and more — ready to go the moment you turn it on, each with several randomized replies. Set cooldowns and access levels, then let greetings, shoutouts, and follow/sub/raid alerts fire automatically.
-
-<img src="screenshots/bot-commands.webp" alt="PixelyChat chat bot custom command builder">
-
+**A Chat Bot That's Actually Fun**<br>!so, !8ball, !dadjoke and more out of the box, plus your own commands, cooldowns and greetings.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/bot-ai-chat.webp" alt="PixelyChat AI chat bot settings" width="100%">
 
-**AI Chat With Personality**
-@mention your bot and it replies in character — pick Friendly, Funny, Sassy, Hype, or write your own personality. Hosted AI replies are included out of the box, with optional provider keys for supported services.
-
-<img src="screenshots/bot-ai-chat.webp" alt="PixelyChat AI chat bot settings">
-
+**AI Chat With Personality**<br>@mention your bot and it replies in character: Friendly, Funny, Sassy, Hype or your own.
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/companion.webp" alt="PixelyChat Companion editor with avatar, reactions, voice, and stream preview" width="100%">
 
-**Companion — Your AI Co-Host**
-Give your stream a character that can react alongside you with a 2D avatar, voice, captions, and event-driven reactions. Companion shares the same personality as AI Chat and uses local responses first where possible to keep AI usage low.
-
-<img src="screenshots/companion.webp" alt="PixelyChat Companion editor with avatar, reactions, voice, and stream preview">
-
+**Companion, Your AI Co-Host**<br>A 2D avatar with voice and captions that reacts to your stream.
 </td>
-<td width="50%">
+<td width="50%" valign="top">
+<img src="screenshots/companion-interaction.webp" alt="Companion Interaction settings with talk hotkey and speech recognition" width="100%">
 
-**Talk to Your Companion**
-Press a hotkey, say something, and your Companion answers out loud on stream. Speech recognition runs on your own PC.
-
-<img src="screenshots/companion-interaction.webp" alt="Companion Interaction settings with talk hotkey and speech recognition">
-
+**Talk to Your Companion**<br>Press a hotkey, say something, and your Companion answers out loud. Speech recognition runs on your PC.
 </td>
 </tr>
 </table>
