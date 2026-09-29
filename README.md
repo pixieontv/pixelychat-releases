@@ -7,7 +7,7 @@
 ### Less juggling. More streaming.
 
 PixelyChat pulls your Twitch, YouTube, Kick, and TikTok chat into one unified feed —
-moderated, spoken aloud, translated on the fly, with on-screen alerts, Channel Point/TikTok gift rewards, stream and action widgets, AI Chat, and Companion — an on-stream AI co-host.
+moderated, spoken aloud, translated on the fly, with on-screen alerts, Channel Point/TikTok gift rewards, stream and action widgets, themes, AI Chat, and Companion — an on-stream AI co-host.
 
 Built by a streamer who'd rather be playing than managing five chat windows.
 
@@ -17,7 +17,7 @@ Built by a streamer who'd rather be playing than managing five chat windows.
 [![Discord](https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/NjC9cUgdfQ)
 [![Free forever](https://img.shields.io/badge/price-free%20forever-brightgreen)](#-faq)
 
-[Website](https://www.pixelychat.com) · [Download](#-download) · [Features](#-features) · [Screenshots](#-screenshots) · [Manual](https://www.pixelychat.com/manual/) · [FAQ](#-faq) · [Support](#-support--community)
+[Website](https://www.pixelychat.com) · [Download](#-download) · [What's new](https://www.pixelychat.com/news/) · [Features](#-features) · [Screenshots](#-screenshots) · [Manual](https://www.pixelychat.com/manual/) · [FAQ](#-faq) · [Support](#-support--community)
 
 </div>
 
@@ -25,7 +25,7 @@ Built by a streamer who'd rather be playing than managing five chat windows.
 
 ## About
 
-PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, shown as themed on-screen alerts and Channel Point/TikTok gift rewards, enhanced with stream widgets and action widgets, backed by a chat bot with commands and AI Chat, and extended by Companion, an optional on-stream AI co-host with a 2D avatar, voice, captions, and event reactions. Everything can be brought into OBS/Streamlabs through PixelyChat's local browser-source overlays.
+PixelyChat is a desktop app for live streamers. It connects to **Twitch, YouTube, Kick, and TikTok** and merges all four chats into a single feed — readable in-app, moderated, read aloud with text-to-speech, shown as themed on-screen alerts and Channel Point/TikTok gift rewards, enhanced with stream widgets and action widgets, backed by a chat bot with commands and AI Chat, and extended by Companion, an optional on-stream AI co-host with a 2D avatar, voice, captions, and event reactions. Everything can be brought into OBS/Streamlabs through PixelyChat's local browser-source overlays, and PixelyChat works together with Elgato Stream Deck and Streamer.bot. The app is available in 11 languages.
 
 It's made by **PixieOnTV**, a variety gaming streamer who got tired of multi-platform chat tools either missing what she needed or requiring a computer science degree to configure. She built it for her own stream first — then figured other streamers fighting the same chat chaos might want it too.
 
@@ -57,6 +57,114 @@ Log in to each platform once — PixelyChat picks up your username and channel d
 <tr>
 <td width="50%">
 
+**Unified Dashboard Chat**
+All platforms in one feed with filters, send-to-platform, and live activity counts.
+
+<img src="screenshots/dashboard.webp" alt="PixelyChat dashboard chat">
+
+</td>
+<td width="50%">
+
+**Live Translation**
+Foreign-language chat is translated into your language automatically — no API key, no signup, original text kept alongside it.
+
+<img src="screenshots/translate.webp" alt="Translation settings">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Text-to-Speech**
+Chat read aloud in a natural voice. Control speed and volume, ignore specific users or bots, and cap it so a raid doesn't leave TTS reading for five minutes straight.
+
+<img src="screenshots/tts.webp" alt="Text-to-speech settings">
+
+</td>
+<td width="50%">
+
+**Chat Styles & Style Library**
+Panel, bubbles, cards, neon, and more built in — or install free community chat styles from the Style Library with one click. Toggle avatars, timestamps, and platform icons, and set colors and transparency.
+
+<img src="screenshots/chat-styles.webp" alt="Chat Style Library with installable community chat styles">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**One-Click OBS/Streamlabs Overlays**
+Copy one URL, paste it into a Browser Source, done. Every style change updates the overlay live.
+
+<img src="screenshots/overlays.webp" alt="Overlay URL generator">
+
+</td>
+<td width="50%">
+
+**On-Screen Chat**
+Read chat and events on top of your game with just one monitor. Only you see it — it stays off your stream — and your mouse and keyboard stay with the game.
+
+<img src="screenshots/on-screen-chat.webp" alt="On-Screen Chat with Twitch, YouTube, Kick and TikTok messages on top of a game">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**On-Screen Alerts**
+Follows, subs, gifts, raids, and more with custom themes, sounds, and media — works across Twitch, YouTube, Kick, and TikTok.
+
+<img src="screenshots/alerts.webp" alt="PixelyChat themed on-screen alerts setup">
+
+</td>
+<td width="50%">
+
+**Custom Rewards for Channel Points & TikTok Gifts**
+Turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-screen reactions — visuals, sounds, and read-aloud text, no scripting required. Build from bundled presets or upload your own media, and PixelyChat queues everything so a redemption burst doesn't overlap on screen.
+
+<img src="screenshots/rewards.webp" alt="PixelyChat Rewards tab with custom Channel Point and TikTok gift rewards">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Stream Widgets for Every Platform**
+Add goals, live stats, activity feeds, announcements, and Now Playing to your stream — all from one widget editor built for multistreaming.
+
+<img src="screenshots/widgets.webp" alt="PixelyChat Widgets editor with stream goals, stats, activity feeds, announcements, and Now Playing">
+
+</td>
+<td width="50%">
+
+**Visual Shoutout, Starting Soon & Be Right Back**
+Shout out a creator with !so and a card with one of their Twitch clips pops up on stream. Starting Soon and Be Right Back screens play music and clips from your own channel while you're away.
+
+<img src="screenshots/visual-shoutout.webp" alt="A Visual Shoutout card with a clip playing on stream">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Spin Wheel Action Widget**
+Create reusable wheel templates with custom results and descriptions, position them independently for horizontal and vertical layouts, then trigger a spin from the Dashboard, Bot Commands, Alerts, or Rewards.
+
+<img src="screenshots/spin-wheel.webp" alt="PixelyChat Spin Wheel action widget with configurable templates and stream preview">
+
+</td>
+<td width="50%">
+
+**Stream Deck & Streamer.bot**
+Start Action Widgets from Elgato Stream Deck keys with live status on every key, and run your own Streamer.bot actions when stream events happen on any platform.
+
+<img src="screenshots/stream-deck.webp" alt="Stream Deck keys for PixelyChat Action Widgets">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 **A Chat Bot That's Actually Fun**
 !so, !8ball, !dadjoke, !iq, and more — ready to go the moment you turn it on, each with several randomized replies. Set cooldowns and access levels, then let greetings, shoutouts, and follow/sub/raid alerts fire automatically.
 
@@ -75,78 +183,6 @@ Log in to each platform once — PixelyChat picks up your username and channel d
 <tr>
 <td width="50%">
 
-**Customizable Overlays**
-Panel, bubbles, or plain text. Toggle avatars, timestamps, and platform icons, or give each platform its own color.
-
-<img src="screenshots/chat-settings.webp" alt="Chat overlay style settings">
-
-</td>
-<td width="50%">
-
-**Live Translation**
-Foreign-language chat is translated into your language automatically — no API key, no signup, original text kept alongside it.
-
-<img src="screenshots/translate.webp" alt="Translation settings">
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Text-to-Speech**
-Chat read aloud in a natural voice. Control speed, ignore specific users or bots, and cap it so a raid doesn't leave TTS reading for five minutes straight.
-
-<img src="screenshots/tts.webp" alt="Text-to-speech settings">
-
-</td>
-<td width="50%">
-
-**One-Click OBS/Streamlabs Overlays**
-Copy one URL, paste it into a Browser Source, done. Every style change updates the overlay live.
-
-<img src="screenshots/overlays.webp" alt="Overlay URL generator">
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**On-Screen Alerts**
-Follows, subs, gifts, raids, and more with custom themes, sounds, and media — works across Twitch, YouTube, Kick, and TikTok.
-
-<img src="screenshots/alerts.webp" alt="PixelyChat themed on-screen alerts setup">
-
-</td>
-<td width="50%">
-
-**Unified Dashboard Chat**
-All platforms in one feed with filters, send-to-platform, and live activity counts.
-
-<img src="screenshots/dashboard.webp" alt="PixelyChat dashboard chat">
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**Stream Widgets for Every Platform**
-Add goals, live stats, activity feeds, announcements, and Now Playing to your stream — all from one widget editor built for multistreaming.
-
-<img src="screenshots/widgets.webp" alt="PixelyChat Widgets editor with stream goals, stats, activity feeds, announcements, and Now Playing">
-
-</td>
-<td width="50%">
-
-**Custom Rewards for Channel Points & TikTok Gifts**
-Turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-screen reactions — visuals, sounds, and read-aloud text, no scripting required. Build from bundled presets or upload your own media, and PixelyChat queues everything so a redemption burst doesn't overlap on screen.
-
-<img src="screenshots/rewards.webp" alt="PixelyChat Rewards tab with custom Channel Point and TikTok gift rewards">
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
 **Companion — Your AI Co-Host**
 Give your stream a character that can react alongside you with a 2D avatar, voice, captions, and event-driven reactions. Companion shares the same personality as AI Chat and uses local responses first where possible to keep AI usage low.
 
@@ -155,10 +191,10 @@ Give your stream a character that can react alongside you with a 2D avatar, voic
 </td>
 <td width="50%">
 
-**Spin Wheel Action Widget**
-Create reusable wheel templates with custom results and descriptions, position them independently for horizontal and vertical layouts, then trigger a spin from the Dashboard, Bot Commands, Alerts, or Rewards.
+**Talk to Your Companion**
+Press a hotkey, say something, and your Companion answers out loud on stream. Speech recognition runs on your own PC.
 
-<img src="screenshots/spin-wheel.webp" alt="PixelyChat Spin Wheel action widget with configurable templates and stream preview">
+<img src="screenshots/companion-interaction.webp" alt="Companion Interaction settings with talk hotkey and speech recognition">
 
 </td>
 </tr>
@@ -173,16 +209,25 @@ Create reusable wheel templates with custom results and descriptions, position t
 - **On-screen event alerts** — themed alerts for follows, subs, gifts, raids, and more, with customizable sounds and media
 - **Custom rewards for Channel Points & TikTok gifts** — turn Twitch/Kick Channel Point redemptions and TikTok gifts into their own on-screen reactions, with visuals, sounds, and read-aloud text
 - **Stream widgets** — add goals, live stats, activity feeds, announcements, and Now Playing to OBS/Streamlabs from one multistream-friendly editor
-- **Action widgets** — run interactive Countdown, Stopwatch, Game Queue, Hype, and Spin Wheel widgets with independent horizontal/vertical positioning
+- **Action widgets** — run Countdown, Stopwatch, Game Queue, Hype, Spin Wheel, Visual Shoutout, Starting Soon, Be Right Back, and Media Player widgets with independent horizontal/vertical positioning
+- **Visual Shoutout** — !so pops up a card with the creator's name, avatar, game, and one of their Twitch clips
+- **Starting Soon & Be Right Back** — full-screen break screens with music and clips from your own Twitch channel
+- **Media Player** — play your own sounds, images, and videos on stream from the Dashboard, a hotkey, a chat command, or a reward
+- **Theme Library** — free themes from PixelyChat and the community restyle your alerts, rewards, widgets, and stream scenes in one click
+- **Chat Style Library** — install free community chat styles for your chat overlay
+- **On-Screen Chat** — chat and events on top of your game, visible only to you, so you can stream with one monitor
+- **Stream Deck plugin** — start and stop Action Widgets from Elgato Stream Deck keys, with live status and timers on every key
+- **Streamer.bot integration** — run your Streamer.bot actions on follows, subs, gifts, raids, and more from all four platforms
 - **Spin Wheel** — create reusable templates with custom results and trigger them manually from the Dashboard or automatically from Bot Commands, Alerts, and Rewards
 - **Chat bot with custom commands** — !so, !8ball, and more out of the box, plus your own commands, cooldowns, access levels, greetings, shoutouts, and event automation
 - **AI Chat** — @mention the bot and it replies using Friendly, Funny, Sassy, Hype, or your own custom personality; hosted AI replies are included
-- **Companion** — an optional on-stream AI co-host with a 2D avatar, voice, captions, and event reactions that shares the same personality as AI Chat
+- **Companion** — an optional on-stream AI co-host with a 2D avatar, voice, captions, and event reactions that shares the same personality as AI Chat; talk to it with a hotkey
 - **Quick admin** — delete messages, block users, and update stream title & category for Twitch, Kick, and YouTube from the Dashboard
 - **Live translation** — automatic, no API key required, original text preserved alongside it
 - **Text-to-speech** — natural voices, per-user/bot ignore lists, spam/raid protection
 - **Instant OBS & Streamlabs overlays** — chat overlay and dedicated alerts overlay, one URL each, live-updating styles
 - **External emote support** — 7TV, BTTV, and FrankerFaceZ render alongside native emotes
+- **11 languages** — English, Arabic, Chinese (Simplified and Traditional), French, German, Indonesian, Japanese, Korean, Portuguese (Brazil), and Spanish
 - **Live viewer & message stats** — side-by-side per-platform activity on the Dashboard
 - **Lightweight by design** — runs quietly in the background so your CPU/GPU stays free for your game and encoder
 - **Local-first by design** — chat state, settings, and stored login tokens stay on your computer, and browser-source overlays are served locally; network-backed features only contact the relevant platform/provider when needed
@@ -213,13 +258,13 @@ Yes — Kick is fully supported alongside Twitch, YouTube, and TikTok. Kick chat
 Yes. PixelyChat uses the official Google OAuth 2.0 flow — you sign in through Google's own page, and PixelyChat never sees your password.
 
 **Does PixelyChat collect or sell my data?**
-PixelyChat does not sell your data. Core app data such as settings and stored login tokens stays on your computer. Features that use platform APIs, AI, translation, or other network services send only the data needed for that request to the relevant provider. See the [Privacy Policy](https://www.pixelychat.com/privacy) for details.
+PixelyChat does not sell your data. Core app data such as settings and stored login tokens stays on your computer. Features that use platform APIs, AI, translation, or other network services send only the data needed for that request to the relevant provider. To count how many people use PixelyChat, the app sends one anonymous ping a day with a random install id, your OS, the app version, and the app language — no names, accounts, or IP addresses are stored. See the [Privacy Policy](https://www.pixelychat.com/privacy) for details.
 
 **Is it really free?**
 Yes — every feature is free and stays free. [Donations](https://streamelements.com/pixieontv/tip) are appreciated but never required.
 
 **How do you make money if it's free?**
-Right now, I don't — this is a personal project, not a company, and it's currently supported entirely by [donations](https://streamelements.com/pixieontv/tip). No ads, no selling data. Down the line I may add some optional commercial features, but everything the app does today stays free.
+This is a personal project, not a company. It's supported by [donations](https://streamelements.com/pixieontv/tip) and by [sponsors](https://www.pixelychat.com/sponsors.html) — companies that support development and are shown on the website. No ads in the app, no selling data, and sponsors have no say over the roadmap. Everything the app does today stays free.
 
 **How do the OBS/Streamlabs overlays work?**
 PixelyChat runs a small local web server on your own machine. Point a Browser Source at the URL it gives you for chat, alerts, widgets, or Companion — no separate cloud overlay service is required.
@@ -236,6 +281,12 @@ Yes — map a Twitch/Kick Channel Point redemption or a specific TikTok gift to 
 **What is Companion?**
 Companion is PixelyChat's optional on-stream AI co-host. It shares the personality selected for AI Chat and can react with a 2D avatar, voice, captions, and event-driven responses. Common reactions can use local response libraries so AI is reserved for moments that actually need generation.
 
+**Can I read chat while playing with only one monitor?**
+Yes — turn on On-Screen Chat under Setup → Overlays. Chat and events appear on top of your game, only you can see them, and your mouse and keyboard stay with the game. It works with windowed and borderless fullscreen games.
+
+**Does PixelyChat work with Stream Deck and Streamer.bot?**
+Yes. The PixelyChat plugin for Elgato Stream Deck starts and stops your Action Widgets with one key, and Streamer.bot can run your own actions when stream events happen in PixelyChat. Both are set up under Setup → Integrations.
+
 **Can Spin Wheel be triggered automatically?**
 Yes. Spin Wheel is an Action Widget, so you can play it manually from the Dashboard or trigger it from Bot Commands, Alerts, and Rewards. Templates let you keep different wheel setups for different parts of your stream.
 
@@ -249,6 +300,7 @@ Yes. Spin Wheel is an Action Widget, so you can play it manually from the Dashbo
 | 💬 **Discord community** | [discord.gg/NjC9cUgdfQ](https://discord.gg/NjC9cUgdfQ) |
 | 🔗 **Links / socials** | [beacons.ai/pixieontv](https://beacons.ai/pixieontv) |
 | 💜 **Support development** | [Donate](https://streamelements.com/pixieontv/tip) |
+| 🤝 **Become a sponsor** | [pixelychat.com/sponsors](https://www.pixelychat.com/sponsors.html) · [sponsors@pixelychat.com](mailto:sponsors@pixelychat.com) |
 
 ---
 
