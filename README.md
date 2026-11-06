@@ -6,7 +6,7 @@
 
 ### Less juggling. More streaming.
 
-Chat, TTS, translation, alerts, widgets, rewards, a bot and a talking Companion, all in one app.<br>
+Chat, TTS, translation, alerts, widgets, rewards, chat games, a bot and a talking Companion, all in one app.<br>
 Twitch, YouTube, Kick and TikTok in one feed. **Free forever.**
 
 [![Latest release](https://img.shields.io/github/v/release/pixieontv/pixelychat-releases?label=latest%20release&color=9146FF)](https://github.com/pixieontv/pixelychat-releases/releases/latest)
@@ -148,7 +148,7 @@ Bring your chat, alerts and widgets into OBS or Streamlabs. Set the look once. C
 
 ### Give chat a part in the show.
 
-Turn viewers into participants with rewards, live polls, wheel spins and a queue for your next community game.
+Turn viewers into participants with chat games, rewards, live polls, wheel spins and a queue for your next community game.
 
 <table>
 <tr>
@@ -175,8 +175,33 @@ Turn viewers into participants with rewards, live polls, wheel spins and a queue
 **Game Queue**<br>Viewers type !join to get in line for your next community game.
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<img src="screenshots/games-boss.webp" alt="A Boss Fight on stream with viewers from Twitch, Kick, YouTube and TikTok fighting the boss" width="100%">
+
+**Boss Fight**<br>Chat types !play to team up against a boss with your face on it. The boss grows with the crowd, so every fight stays close.
+</td>
+<td width="50%" valign="top">
+<img src="screenshots/games-trapdoor.webp" alt="Trapdoor on stream with viewers standing on three doors" width="100%">
+
+**Trapdoor**<br>Everyone picks a door, then one drops open. Survive every round to win, with up to 250 players at once.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<img src="screenshots/games-word-mix.webp" alt="Word Mix on stream with found words and a leaderboard" width="100%">
+
+**Word Mix**<br>Chat finds words in the letters together to clear each level, in all 15 languages, with a leaderboard for the best word finders.
+</td>
+<td width="50%" valign="top">
+<img src="screenshots/games-duel.webp" alt="Two viewers fighting a duel on stream" width="100%">
+
+**Duels**<br>!fight challenges anyone in chat, even on another platform. Wins, streaks and rivalries are kept.
+</td>
+</tr>
 </table>
 
+- **Chat games** — Boss Fight, Trapdoor, Word Mix and Duels, played from chat on all four platforms and started from the Dashboard, a chat command or a reward, with statistics, leaderboards and an option to fill your Be Right Back screen
 - **Action Widgets** — Poll, Spin Wheel, Game Queue, Countdown, Stopwatch, Hype, Visual Shoutout, Starting Soon, Be Right Back, Stream Ending and Media Player, with separate horizontal and vertical positions
 - **Custom rewards** for Twitch/Kick Channel Points and TikTok gifts, from bundled presets or your own media
 - **Media library** for your own sounds, images and videos
@@ -315,6 +340,12 @@ Yes. Turn on On-Screen Chat under Setup → Overlays. Chat and events appear on 
 <summary><b>Can I turn Channel Points or TikTok gifts into on-screen rewards?</b></summary>
 <br>
 Yes. Map a Twitch/Kick Channel Point redemption or a specific TikTok gift to its own on-screen reaction: a visual, a sound and optional read-aloud text. Start from bundled presets or upload your own media, and set a point cost per platform.
+</details>
+
+<details>
+<summary><b>Can my viewers play games on stream?</b></summary>
+<br>
+Yes. Turn on Games and viewers play Boss Fight, Trapdoor, Word Mix and Duels right from chat, on Twitch, YouTube, Kick and TikTok together. Start a game from the Dashboard, a chat command, a Channel Point reward or a TikTok gift, or let one run on your Be Right Back screen. Wins and scores are saved, and leaderboards can be shown on stream.
 </details>
 
 <details>
